@@ -9,11 +9,12 @@
 
 <body>
     <?php
-        $charName = "akira";
-        $charAge = 20;
-        echo "<h1><em>Hello iam $charName</em></h1>";
-        echo "<hr> <br>";
-        echo "i'm $charAge years old";
+        $pharse = "tobi or not to be";
+        $age = 30;
+        $gpa = 30.3;
+        $ismale = false;
+        //null; these are the data types in php
+        echo "<em><strong> $pharse </strong></em>";
     ?>
 </body>
 </html>
