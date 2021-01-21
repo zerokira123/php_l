@@ -9,9 +9,11 @@
 
 <body>
     <?php
-        echo "<h1><em>Hello world</em></h1>";
+        $charName = "akira";
+        $charAge = 20;
+        echo "<h1><em>Hello iam $charName</em></h1>";
         echo "<hr> <br>";
-        echo "This is my site";
+        echo "i'm $charAge years old";
     ?>
 </body>
 </html>
