@@ -9,6 +9,7 @@
 
 <body>
     <?php
+    //error_reporting(E_ERROR | E_PARSE);
         $num = 10;
         $num += 25;
         echo $num;
