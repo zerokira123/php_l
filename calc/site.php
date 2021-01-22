@@ -9,8 +9,8 @@
 
 <body>
     <form action='site.php' method="get">
-        <input type="number" name="num1" > + 
-        <input type="number" name="num2" >
+        <input type="number" name="num1" value=0> +
+        <input type="number" name="num2" value=0>
         <input type="submit">
     </form>
 
