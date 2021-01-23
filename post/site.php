@@ -9,7 +9,7 @@
 
 <body>
 
-    <form action="site.php" method="post">// post method hides the data or variable in url
+    <form action="site.php" method="post">// post method hides the data or variable in url 
     Password:<input type="password" name="ps">
     <br>
     <input type="submit">
