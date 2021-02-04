@@ -8,12 +8,16 @@
 </head>
 
 <body>
+    <form action="site.php" method="post">
+       Name:r̥ <input type="text" name="student">
+        <input type="submit">
+    </form>
     <?php
     //error_reporting(E_ERROR | E_PARSE);
     //error_reporting(E_ALL ^ E_WARNING); 
         $grades =array("jim" => "A+","Pam"=>"B-","Oscar"=>"C+");
         $grades["jim"] = "F";
-        echo $grades["jim"];
+        echo $grades[$_POST["student"]];
     ?>
 </body>
 </html>
