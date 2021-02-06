@@ -24,7 +24,7 @@
                 break;
             
             case "B":
-                echo "You did good";
+                echo "You did good"; 
                 break;
             
             case "C":
