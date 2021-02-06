@@ -11,9 +11,14 @@
     <?php
     //error_reporting(E_ERROR | E_PARSE);
     //error_reporting(E_ALL ^ E_WARNING); 
-        $num = 10;
-        $num += 25;
-        echo $num;
+    $luckynumbers = array(4, 8, 14, 16, 23, 42);
+
+    for($i = 0; $i<count($luckynumbers); $i++){
+
+        echo "$luckynumbers[$i] <br>";
+
+    }
+
     ?>
 </body>
 </html>
