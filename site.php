@@ -11,6 +11,7 @@
     <?php
     //error_reporting(E_ERROR | E_PARSE);
     //error_reporting(E_ALL ^ E_WARNING); 
+    //comments
         $num = 10;
         $num += 25;
         echo $num;
