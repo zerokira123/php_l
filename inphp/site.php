@@ -16,6 +16,7 @@
         $author= "kira";
         $wordcount = 400;
         include "article-header.php>";
+        
         include "ut.php";
         echo "<br>";
         sayHi("kira");
