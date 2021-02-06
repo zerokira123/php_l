@@ -12,11 +12,14 @@
     //error_reporting(E_ERROR | E_PARSE);
     //error_reporting(E_ALL ^ E_WARNING); 
     //comments
-    include"header.html";
-
-    echo "<p>HELLO WORLD</p>";
-
-    include"footer.html";
+        $title= "the one";
+        $author= "kira";
+        $wordcount = 400;
+        include "article-header.php>";
+        include "ut.php";
+        echo "<br>";
+        sayHi("kira");
+        echo "<br> $feetInMile";
     ?>
 </body>
-</html> 
+</html>
